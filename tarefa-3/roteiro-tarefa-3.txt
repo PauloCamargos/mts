@@ -1,0 +1,10 @@
+
+Aplicar os conceitos que o Destro mostrou na ultima aula
+
+comparar epocas paciente X ruido (potencia media e potencia total e porcentagem, pcp)
+ampl, pot e pcp -> fazer calculo de media, desvio p., curtose e fazer graficos (hist)
+dividir cada epoca em 4 para ter uma curva mais precisa no histograma 
+
+xn -> matriz sinal completa
+10 epocas (ruido e paciente)
+
