@@ -28,26 +28,26 @@ k_epoca_um = kurtosis(potencia_epoca_um);
 k_potencia = kurtosis(epoca_um);
 
 % 1) Calculo de um terco das epocas
-terco = epoca_um(1:length(epoca_um)/3);
+terco = epoca_um(:,1:length(epoca_um)/3);
 
 
 % 1) Exibicao do histograma do sinal xn
 subplot(1,3,1);
-histogram(xn);
+histfit(xn(1,:));
 title('XN');
 ylabel("Nº Ocorrencias");
 xlabel("Tensão [uV]");
 
 % 1) Exibicao do histograma do sinal epoca_um
  subplot(1,3,2);
-histogram(epoca_um);
+histfit(epoca_um(1,:));
 title('Época 1');
 ylabel("Nº Ocorrencias");
 xlabel("Tensão [uV]");
 
 % 1) Exibicao do histograma do sinal terco
 subplot(1,3,3);
-histogram(terco);
+histfit(terco(1,:));
 title('Terço da Época 1');
 ylabel("Nº Ocorrencias");
 xlabel("Tensão [uV]");
