@@ -34,7 +34,7 @@ Atividades essenciais para o que o modelo de negócios da empresa funcione corre
 
 ## Parceiros-chave
 
-Quem são as empresas, instituições ou pessoas que são importantes para o funcionamento 
+Quem são as empresas, instituições ou pessoas que são importantes para o funcionamento
 do modelo de negócios.
 
 - Cores (do postit) definem se depende ou não do cliente. Back e front stage.
@@ -46,4 +46,3 @@ Envolve os principais custos decorrente da operação do modelo de negócios.
 
 [Startup Biz Model](startupbizmodel.com)
 []()
-
